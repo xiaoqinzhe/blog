@@ -9,7 +9,7 @@ import tensorflow as tf
 
 tensorflow的保存和加载是通过tf.train.Saver类实现的, 她的构造函数是
 ```python
-def \_\_init\_\_(self,
+def __init__(self,
                var_list=None,
                reshape=False,
                sharded=False,
